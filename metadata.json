@@ -1,0 +1,7 @@
+{
+  "name": "AI Storyboard Grid Pro",
+  "description": "Professional storyboard generator that analyzes reference images to create cohesive 3x3 grid prompts for consistent character and scene generation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
