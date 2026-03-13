@@ -22,7 +22,9 @@ export const SHOT_TYPES: ShotType[] = [
   'Silhouette Shot',
   'Reflection Shot',
   'Profile Shot',
-  'Establishing Shot'
+  'Establishing Shot',
+  'Micro-expression',
+  'Outfit Details'
 ];
 
 export const SHOT_TYPES_MAP: Record<ShotType, { en: string; cn: string }> = {
@@ -46,7 +48,9 @@ export const SHOT_TYPES_MAP: Record<ShotType, { en: string; cn: string }> = {
   'Silhouette Shot': { en: 'Silhouette Shot', cn: '剪影镜头' },
   'Reflection Shot': { en: 'Reflection Shot', cn: '反射镜头' },
   'Profile Shot': { en: 'Profile Shot', cn: '侧面镜头' },
-  'Establishing Shot': { en: 'Establishing Shot', cn: '全景交代镜头' }
+  'Establishing Shot': { en: 'Establishing Shot', cn: '全景交代镜头' },
+  'Micro-expression': { en: 'Micro-expression', cn: '微表情' },
+  'Outfit Details': { en: 'Outfit Details', cn: '穿搭细节' }
 };
 
 export const DEFAULT_SHOTS: ShotType[] = [
@@ -57,6 +61,6 @@ export const DEFAULT_SHOTS: ShotType[] = [
   'Full Shot',
   'Wide Shot',
   'Low Angle Shot',
-  'High Angle Shot',
-  'Over the Shoulder'
+  'Micro-expression',
+  'Outfit Details'
 ];

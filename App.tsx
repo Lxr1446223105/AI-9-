@@ -28,7 +28,8 @@ import {
 
 const gemini = new GeminiService();
 
-const Tooltip = ({ children, content, position = 'top' }: { children: React.ReactNode, content: string, position?: 'top' | 'bottom' | 'left' | 'right' }) => {
+// Fixed Tooltip component type to properly support children in all environments
+const Tooltip = ({ children, content, position = 'top' }: { children?: React.ReactNode, content: string, position?: 'top' | 'bottom' | 'left' | 'right' }) => {
   const [show, setShow] = useState(false);
   const positions = {
     top: "bottom-full mb-2 left-1/2 -translate-x-1/2",

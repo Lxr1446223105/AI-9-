@@ -20,7 +20,9 @@ export type ShotType =
   | 'Silhouette Shot'
   | 'Reflection Shot'
   | 'Profile Shot'
-  | 'Establishing Shot';
+  | 'Establishing Shot'
+  | 'Micro-expression'
+  | 'Outfit Details';
 
 export interface StoryboardShot {
   id: number;
